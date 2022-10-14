@@ -21,4 +21,4 @@ repo.Rproj
 **/cookiecutter.png 
 
 lessons/*
-!lessons/M01
+!lessons/M01*
