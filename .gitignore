@@ -1,0 +1,24 @@
+# SYSTEM
+.Rhistory
+.Rproj.user
+repo.Rproj
+.RData
+
+**/.ipynb_checkpoints
+**/.DS_Store
+**/Icon
+**/__pycache__
+**/.egg-info
+
+**/_HIDE
+**/hidden
+**/tmp
+**/Untitled*.ipynb
+
+
+# CONTENT
+**/austen-melville*
+**/cookiecutter.png 
+
+lessons/*
+!lessons/M01
