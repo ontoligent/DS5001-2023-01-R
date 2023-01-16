@@ -22,3 +22,4 @@ repo.Rproj
 
 lessons/*
 !lessons/M01*
+!lessons/M02*
