@@ -17,7 +17,6 @@ repo.Rproj
 
 
 # CONTENT
-**/austen-melville*
 **/cookiecutter.png 
 
 lessons/*
@@ -26,3 +25,4 @@ lessons/*
 !lessons/M01*
 !lessons/M02*
 !lessons/M03*
+!lessons/M04*
