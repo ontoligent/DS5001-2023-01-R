@@ -14,13 +14,13 @@ repo.Rproj
 **/hidden
 **/tmp
 **/Untitled*.ipynb
+**/lessons/data
 
 
 # CONTENT
 **/cookiecutter.png 
 
 lessons/*
-!lessons/data
 !lessons/lib
 !lessons/M01*
 !lessons/M02*
