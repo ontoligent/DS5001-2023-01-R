@@ -1,0 +1,150 @@
+graph tm {
+	node [shape=rect]
+	T00 -- T25
+	T00 -- T34
+	T01 -- T02
+	T01 -- T08
+	T01 -- T14
+	T01 -- T17
+	T01 -- T19
+	T02 -- T06
+	T02 -- T10
+	T02 -- T12
+	T02 -- T14
+	T02 -- T25
+	T02 -- T26
+	T02 -- T27
+	T02 -- T30
+	T02 -- T32
+	T02 -- T36
+	T03 -- T04
+	T03 -- T07
+	T03 -- T13
+	T03 -- T19
+	T03 -- T21
+	T03 -- T24
+	T03 -- T31
+	T03 -- T33
+	T04 -- T08
+	T04 -- T11
+	T04 -- T13
+	T04 -- T17
+	T04 -- T18
+	T04 -- T19
+	T04 -- T29
+	T05 -- T08
+	T05 -- T20
+	T05 -- T23
+	T05 -- T38
+	T07 -- T10
+	T07 -- T37
+	T08 -- T18
+	T08 -- T19
+	T08 -- T23
+	T08 -- T28
+	T08 -- T35
+	T08 -- T37
+	T08 -- T38
+	T08 -- T39
+	T09 -- T10
+	T09 -- T14
+	T09 -- T18
+	T10 -- T12
+	T10 -- T13
+	T10 -- T14
+	T12 -- T13
+	T12 -- T14
+	T12 -- T25
+	T12 -- T26
+	T12 -- T30
+	T12 -- T39
+	T13 -- T15
+	T13 -- T23
+	T13 -- T25
+	T13 -- T39
+	T14 -- T17
+	T14 -- T25
+	T14 -- T29
+	T14 -- T34
+	T14 -- T35
+	T15 -- T18
+	T15 -- T21
+	T15 -- T23
+	T15 -- T25
+	T15 -- T29
+	T16 -- T19
+	T16 -- T23
+	T16 -- T29
+	T16 -- T38
+	T17 -- T19
+	T17 -- T24
+	T17 -- T27
+	T17 -- T28
+	T17 -- T37
+	T18 -- T19
+	T18 -- T21
+	T18 -- T37
+	T19 -- T21
+	T19 -- T24
+	T19 -- T37
+	T20 -- T23
+	T20 -- T38
+	T21 -- T38
+	T23 -- T38
+	T24 -- T29
+	T24 -- T37
+	T25 -- T26
+	T25 -- T30
+	T27 -- T37
+	T29 -- T30
+	T29 -- T31
+	T29 -- T34
+	T29 -- T36
+	T30 -- T34
+	T30 -- T36
+	T30 -- T37
+	T32 -- T34
+	T33 -- T37
+	T34 -- T36
+	T35 -- T37
+	T37 -- T39
+	T00 [label="T00\nemigrants steerage cabin\nmess cook organ water"]
+	T01 [label="T01\nman men things\nwine ha day way"]
+	T02 [label="T02\nair fish round\nday trees groves water"]
+	T03 [label="T03\nway friend nature\nsort stranger confidence kind"]
+	T04 [label="T04\nherb confidence man\nherb doctor ugh doctor dont"]
+	T05 [label="T05\nmother family years\nbrother time aunt child"]
+	T06 [label="T06\nabbey gallery generals\nharpooneer general man nose"]
+	T07 [label="T07\nday country village\nhorse morning road house"]
+	T08 [label="T08\ndoor house moment\ntime bed night hand"]
+	T09 [label="T09\ngod image lord\nidols images wine arms"]
+	T10 [label="T10\nnatives time island\nhouse place islanders feet"]
+	T11 [label="T11\nteeth kings royal\nmilk bull lord item"]
+	T12 [label="T12\ntime land water\nship air day sight"]
+	T13 [label="T13\ncanoe time face\ncook island head sort"]
+	T14 [label="T14\ntime world things\nyears people land times"]
+	T15 [label="T15\nship cabin voyage\ndollars ships man board"]
+	T16 [label="T16\noh body way\nday world sort word"]
+	T17 [label="T17\nhouse king heart\nmind time life people"]
+	T18 [label="T18\nmother room door\nman guide eyes world"]
+	T19 [label="T19\nthings soul man\nheart life love men"]
+	T20 [label="T20\nfeelings heart mind\nmoment letter happiness subject"]
+	T21 [label="T21\nbarber gentleman men\nsort world time life"]
+	T23 [label="T23\nball sir evening\nway yes room partner"]
+	T24 [label="T24\nday time consul\nboat way ships tailor"]
+	T25 [label="T25\nboat whales ship\nboats head sea line"]
+	T26 [label="T26\nlord king minstrel\nspears land royal throne"]
+	T27 [label="T27\nlord feet bones\nsea things skull ribs"]
+	T28 [label="T28\nthing volume paper\nbooks reading work man"]
+	T29 [label="T29\nmen war gun\nguns deck jacket man war"]
+	T30 [label="T30\nship deck night\nman sail wind time"]
+	T31 [label="T31\njacket auction need\nloan friend bags way"]
+	T32 [label="T32\nman court punishment\nlaws code time cases"]
+	T33 [label="T33\nhead mystery oil\ngirl whale sounds thing"]
+	T34 [label="T34\ndeck men ship\nsailors time captain mate"]
+	T35 [label="T35\nchimney table time\ncock man house room"]
+	T36 [label="T36\nglass place sailors\njacket friend sort sailor"]
+	T37 [label="T37\nthee art brother\noh face eyes heart"]
+	T38 [label="T38\nday house thing\nroom sister man pleasure"]
+	T39 [label="T39\ngentlemen man uncle\nleg operation water hand"]
+}
