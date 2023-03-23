@@ -9,6 +9,7 @@ repo.Rproj
 **/Icon
 **/__pycache__
 **/.egg-info
+**/mimno-Mallet-*
 
 **/_HIDE
 **/hidden
