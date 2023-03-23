@@ -1,0 +1,13 @@
+corpus/*
+!corpus/demo-corpus.csv
+output/*
+config.ini
+
+**/.DS_Store
+
+Mazo.egg-info/*
+**/__pycache__/*
+build/*
+dist/*
+Mazo.egg-info/*
+MANIFEST
