@@ -28,7 +28,7 @@ class HAC:
     w:int = 10
     label_size:int = 14
     orientation:str = 'left'
-    dist_metric:str = 'euclidean' 
+    dist_metric:str = 'cosine' 
     linkage_method:str = 'ward' 
     norm_type:str = 'l2' 
     color_thresh:float = None
