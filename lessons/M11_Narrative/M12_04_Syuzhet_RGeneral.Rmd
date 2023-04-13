@@ -1,0 +1,82 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+method = 'nrc' # methods = "syuzhet", "afinn", "bing", "nrc", "stanford"
+fft_low_pass = 3
+dct_low_pass = 6
+```
+
+
+```{r}
+library(syuzhet)
+library(tidyverse)
+```
+
+```{r}
+options(repr.plot.width=15, repr.plot.height=6)
+```
+
+```{r}
+CORPUS = read_csv("..//data//syuzhet//combo-SENTENCES.csv", show_col_types = F)
+```
+
+```{r}
+plotitall <- function (this_book_id, book_title) {
+
+    sentences <- CORPUS %>% 
+        filter(book_id == this_book_id) %>% 
+        select(sent_str)
+    
+    # Get the book and compute sentiment
+    book.sentiment_vector <- get_sentiment(sentences$sent_str, method=method)
+    
+     # Plot the raw signal
+     plot(book.sentiment_vector, 
+          type ="l", 
+          main = book_title,
+          xlab = "Narrative Time", 
+          ylab = "Emotional Valence")
+    
+     # Get smoothed signal the old way
+     book.ft_values <- get_transformed_values(book.sentiment_vector, 
+                                      low_pass_size = fft_low_pass, 
+                                      x_reverse_len = 100,
+                                      scale_vals = TRUE, 
+                                      scale_range = FALSE)
+    
+     # Get smoothing signal the new way
+     book.dct_values <- get_dct_transform(book.sentiment_vector, 
+                                          scale_vals = TRUE, 
+                                          scale_range = FALSE)
+    
+     # Plot the old 
+     plot(book.ft_values,
+          type ="h", 
+          main = paste(book_title, " transformed (FFT)"), 
+          xlab = "narrative time", 
+          ylab = "Emotional Valence", col = "red")
+    
+     # Plot the new
+     plot(book.dct_values,
+          type ="h", 
+          main = paste(book_title, " transformed (DCT)"), 
+          xlab = "narrative time", 
+          ylab = "Emotional Valence", col = "red")
+     
+}
+```
+
+```{r}
+plotitall('105', 'Persuasion')
+```
+
+
+```{r}
+plotitall('2701', 'Moby Dick')
+```
+
+
+
