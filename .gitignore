@@ -18,7 +18,10 @@ repo.Rproj
 **/lessons/data
 **/data_in
 **/data_out
-
+**/*.db
+**/mallet
+**/*.mallet
+**/M08a*/output
 
 # CONTENT
 **/cookiecutter.png 
@@ -33,4 +36,7 @@ lessons/*
 !lessons/M06*
 !lessons/M07*
 !lessons/M08*
+!lessons/M09*
+!lessons/M10*
+!lessons/M11*
 !lessons/M92*
